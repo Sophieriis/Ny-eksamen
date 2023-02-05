@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 743 337.32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #1b1464;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="257" y="118.23" width="230" height="128.09"/>
+  <line class="cls-1" x1="260.8" y1="138.29" x2="334.65" y2="138.29"/>
+  <line class="cls-1" x1="260.8" y1="225.34" x2="334.65" y2="225.34"/>
+  <line class="cls-1" x1="412.09" y1="138.29" x2="483.63" y2="138.29"/>
+  <line class="cls-1" x1="412.09" y1="225.34" x2="481.95" y2="225.34"/>
+  <rect class="cls-1" x="313.98" y="127.3" width="116.29" height="109.37" rx="54.69" ry="54.69"/>
+  <rect class="cls-1" x="321.58" y="134.45" width="101.68" height="95.63" rx="47.82" ry="47.82"/>
+  <polygon class="cls-1" points="439.62 146.54 439.62 164.88 475.85 164.68 475.85 146.54 439.62 146.54"/>
+  <polyline class="cls-1" points="274.37 118.23 277.75 110.81 309.74 110.81 312.1 118.23 346.69 118.23 353.13 99.82 389.14 99.82 395.69 118.23 420.58 118.23 423.26 106.33 437.87 105.87 441.28 118.23"/>
+</svg>

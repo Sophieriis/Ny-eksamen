@@ -1,0 +1,229 @@
+/* Iphone Styling */
+@media (max-width: 990px){
+ul{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+
+/* Forsiden */
+.index_div_container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 150px;
+}
+.index_h1{
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.index_h2{
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* Grundlæggende Web */
+.tema2_links, .tema3_links, .tema4_links, .tema5_links, .tema6_links{
+    display: flex;
+    gap: 10px;
+}
+}
+
+/* Computer Styling */
+@media (min-width: 990px){
+/* Navigation */
+
+/* Om mig side */
+.ommig_div_container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+header{
+    grid-column: 1 / 13;
+    grid-row: 1;
+}
+.ommig_text{
+    grid-column: 5 / 13;
+    grid-row: 3;
+}
+.ommig_h1{
+    grid-column: 5 / 13;
+}
+.ommig_pic{
+    grid-column: 1 / 5;
+    grid-row: 3;
+    overflow: hidden;
+    object-fit: contain;
+}
+.ommig_pic_2{
+    grid-column: 1 / 5;
+    grid-row: 3;
+    overflow: hidden;
+    object-fit: contain;
+}
+.ommig_cv{
+    grid-column: 1 / 13;
+    grid-row: 4;
+}
+.ommig_cv_text{
+    grid-column: 1 / 13;
+    grid-row: 5;
+}
+
+/* Index side */
+.index_div_container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 150px;
+}
+.index_h1{
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.index_h2{
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Portfolio side */
+.portfolio_container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.tema_2_tekst_knap{
+    grid-column: 2;
+    grid-row: 2;
+}
+.tema_2_img{
+    grid-column: 1;
+    grid-row: 2;
+}
+.tema_3_img{
+    grid-column: 1;
+    grid-row: 3;
+}
+.tema_3_tekst_knap{
+    grid-column: 2;
+    grid-row: 3;
+}
+.tema_4_img{
+    grid-column: 1;
+    grid-row: 4;
+}
+.tema_4_tekst_knap{
+    grid-column: 2;
+    grid-row: 4;
+}
+.tema_5_img{
+    grid-column: 1;
+    grid-row: 5;
+}
+.tema_5_tekst_knap{
+    grid-column: 2;
+    grid-row: 5;
+}
+.tema_6_img{
+    grid-column: 1;
+    grid-row: 6;
+}
+.tema_6_tekst_knap{
+    grid-column: 2;
+    grid-row: 6;
+}
+
+/* Grundlæggende web */
+.tema_2_container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.tema_2_tekst{
+    grid-column: 2 / 12;
+    grid-row: 2;
+}
+.tema2_links{
+    grid-column: 2 / 12;
+    grid-row: 3;
+    display: flex;
+    gap: 10px;
+}
+
+/* Grundlæggende UX */
+.tema_3_container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.tema_3_tekst{
+    grid-column: 2 / 12;
+    grid-row: 2;
+}
+.tema3_links{
+    grid-column: 2 / 12;
+    grid-row: 3;
+    display: flex;
+    gap: 10px;
+}
+
+/* Animation */
+.tema_4_container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.tema_4_tekst{
+    grid-column: 2 / 12;
+    grid-row: 2;
+}
+.tema4_links{
+    grid-column: 2 / 12;
+    grid-row: 3;
+    display: flex;
+    gap: 10px;
+}
+
+/* Grundlæggende indhold */
+.tema_5_container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.tema_5_tekst{
+    grid-column: 2 / 12;
+    grid-row: 2;
+}
+.tema5_links{
+    grid-column: 2 / 12;
+    grid-row: 3;
+    display: flex;
+    gap: 10px;
+}
+
+/* Portfolio eksamen */
+.tema_6_container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.tema_6_tekst{
+    grid-column: 2 / 12;
+    grid-row: 2;
+}
+.tema6_links{
+    grid-column: 2 / 12;
+    grid-row: 3;
+    display: flex;
+    gap: 10px;
+}
+}

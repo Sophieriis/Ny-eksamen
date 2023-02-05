@@ -1,0 +1,328 @@
+/* Iphone Styling */
+@media (max-width: 990px){
+
+/* Tekst styling */
+@font-face {
+    font-family: "Simpelfont";
+    src: url(./OpenSans-VariableFont_wdth\,wght.ttf)
+}
+p{
+    font-family: "Simpelfont";
+    color: #3f617f;;
+}
+a{
+    font-family: "Simpelfont";
+    color: #3f617f;;
+}
+h1{
+    font-family: "Simpelfont";
+    color: #3f617f;;
+}
+h2{
+    font-family: "Simpelfont";
+    color: #3f617f;;
+    font-size: 18px;
+}
+h3{
+    font-family: "Simpelfont";
+    color: #3f617f;;
+    font-size: 15px;
+}
+
+/* Navigations header */
+ul{
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-right:11px;
+    list-style:none;
+    background-color: #3f617f;
+    position: relative;
+    margin: -10px;
+    
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: white;
+}
+a:active{
+    color: white;
+}
+.button{
+    background-color: #3f617f;
+    border: none;
+    color: white;
+    width: fit-content;
+    padding: 15px;
+    border-radius: 2px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+/* Forsiden */
+.index_img{
+    z-index: -1;
+    opacity: 0.40;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.index_h1{
+    color: #3f617f;;
+}
+.index_h2{
+    color: #668ba4;
+}
+
+/* Om mig */
+.ommig_text{
+    background-color: white; 
+    display: block;
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-top: -25px;
+    padding: 20px;
+}
+.ommig_pic{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.ommig_pic_2{
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+
+/* Animation */
+.tema4_h2{
+    padding-top: 20px;
+}
+.tema4_h3{
+    padding-top: 15px;
+}
+
+/* Portfolio */
+.tema_2_text_div{
+    padding: 20px;
+    margin-top: -20px;
+}
+.tema6_h3{
+    padding-top: 20px;
+}
+
+
+}
+
+/* Computer Styling */
+@media (min-width: 990px){
+
+    @font-face {
+        font-family: "Simpelfont";
+        src: url(./OpenSans-VariableFont_wdth\,wght.ttf)
+    }
+    p{
+        font-family: "Simpelfont";
+        color: #3f617f;;
+    }
+    a{
+        font-family: "Simpelfont";
+        color: #3f617f;;
+    }
+    h1{
+        font-family: "Simpelfont";
+        color: #3f617f;;
+    }
+    h2{
+        font-family: "Simpelfont";
+        color: #3f617f;;
+        font-size: 18px;
+    }
+    h3{
+        font-family: "Simpelfont";
+        color: #3f617f;;
+        font-size: 15px;
+    }
+    
+    /* Navigations header */
+    ul{
+        padding-top:20px;
+        padding-bottom:20px;
+        padding-right:11px;
+        list-style:none;
+        background-color: #3f617f;
+        position: relative;
+        margin: -10px;
+        
+    }
+    a{
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a:link{
+        color: white;
+    }
+    a:visited{
+        color: white;
+    }
+    a:hover{
+        color: white;
+    }
+    a:active{
+        color: white;
+    }
+    
+    .button{
+        display: block;
+        width: fit-content;
+        background-color: #3f617f;
+        border: none;
+        color: white;
+        padding: 15px;
+        border-radius: 2px;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    
+/* Forsiden */
+.index_img{
+    z-index: -1;
+    opacity: 0.40;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.index_h1{
+    color: #3f617f;
+    font-size: 45px;
+}
+.index_h2{
+    color: #3f617f;
+    font-size: 30px;
+}
+
+/* Om mig */
+.ommig_h1{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+}
+.ommig_p{
+    padding: 20px;
+    padding-bottom: 1px;
+}
+.ommig_pp{
+    padding: 20px;
+    padding-bottom: 3px;
+}
+.ommig_ppp{
+    padding: 20px;
+}
+.ommig_pic{
+    margin-left: -10px;
+}
+.ommig_pic_2{
+    margin-left: -10px;
+    padding-top: 475px;
+}
+.ommig_cv{
+    padding-left: 20px;
+    padding-top: 90px;
+}
+.ommig_cv_text{
+    padding: 20px;
+    padding-bottom: 1px;
+}
+
+/* Portfolio side */
+.tema_2_tekst_knap{
+    padding-top: 60px;
+    padding-right: 50px;
+}
+.tema_3_tekst_knap{
+    padding-right: 50px;
+    padding-top: 90px;
+}
+.tema_4_tekst_knap{
+    padding-right: 50px;
+    padding-top: 90px;
+}
+.tema_5_tekst_knap{
+    padding-right: 50px;
+    padding-top: 90px;
+}
+.tema_6_tekst_knap{
+    padding-right: 50px;
+    padding-top: 90px;
+}
+
+/* Grundlæggende Web */
+.tema_2_tekst{
+    padding-top: 50px;
+}
+.tema2_links{
+    padding-top: 20px;
+}
+
+
+/* Grundlæggende UX */
+.tema_3_tekst{
+    padding-top: 50px;
+}
+.tema3_links{
+    padding-top: 20px;
+}
+
+/* Animation */
+.tema_4_tekst{
+    padding-top: 50px;
+}
+.tema4_links{
+    padding-top: 20px;
+}
+.tema4_h2{
+    padding-top: 20px;
+}
+.tema4_h3{
+    padding-top: 15px;
+}
+
+/* Grundlæggende indhold */
+.tema_5_tekst{
+    padding-top: 50px;
+}
+.tema5_links{
+    padding-top: 20px;
+}
+
+/* Portfolio */
+.tema_6_tekst{
+    padding-top: 50px;
+}
+.tema6_links{
+    padding-top: 20px;
+}
+.tema6_h3{
+    padding-top: 20px;
+}
+
+
+
+}
